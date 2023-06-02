@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<label for="number">Number</label><input type="number" id="number" name="number" />
+<button type="button" onclick="calculate()">Submit</button>
+
+<script>
+    let calculate = () => {
+        let numb = +document.getElementById('number').value;
+        let sum = 0;
+        for (let i = numb; i < 20; i += numb) {
+
+            sum += i;
+        }
+        console.log(sum);
+    }
+</script>
+</body>
+</html>
