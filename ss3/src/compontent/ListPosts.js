@@ -80,7 +80,7 @@ export function ListPosts() {
                 <div className="modal-dialog">
                     <div className="modal-content">
                         <div className="modal-header">
-                            <h5 className="modal-title" id="exampleModalLabel">...</h5>
+                            <h5 className="modal-title col-0" id="exampleModalLabel">Delete Posts</h5>
                             <button type="button" className="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                         </div>
