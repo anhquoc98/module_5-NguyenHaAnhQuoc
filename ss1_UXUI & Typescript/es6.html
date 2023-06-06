@@ -34,7 +34,7 @@
         },
     ];
     // Yêu cầu 1: Sử dụng cú pháp ES6 để xuất ra màn hình danh sách các bài đăng có rating ≥ 4
-    let newCourses = courses.filter(courses => courses.rating >= 4)
+    let newCourses = courses.filter(post => post.rating >= 4)
     console.log(newCourses)
 
     // Yêu cầu 2: Sử dụng cú pháp ES6 để xuất ra màn hình danh sách các bài đăng có rating < 4 với yêu cầu giá trị các phần tử của mảng mới có định dạng:
@@ -56,12 +56,12 @@
             rating: 3.8,
         }
     ];
-    let newAddedCourses = addedCourses.filter(courses => courses.rating < 4).map(addedCourses => addedCourses.id + "-" + addedCourses.title + "-" + addedCourses.rating);
+    let newAddedCourses = addedCourses.filter(post => post.rating < 4).map(addPost => addPost.id + "-" + addPost.title + "-" + addPost.rating);
     console.log(newAddedCourses)
 
     // Yêu cầu 3: Sử dụng cú pháp ES6 đã học viết hàm trả về một mảng mới gộp 2 mảng courses và addedCourses
-    let newArr = [...courses, ...addedCourses];
-    console.log(newArr)
+    let newArr = (array1, array2) => [...array1, ...array2];
+    console.log(newArr(courses,addedCourses));
 
 </script>
 </body>
