@@ -1,7 +1,20 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {posts} from "./data";
 
 export function Posts() {
+    const [useList, setUseList] = useState(posts);
+    const [id, setId] = useState(null);
+    const [title, setTitle] = useState(null);
+    function handleDelete(id) {
+        const newList = useList.filter((value) => value.id !== id);
+        setUseList(newList);
+    }
+
+    const getPops = (id, title) => {
+        setId(id);
+        setTitle(title);
+    };
+
     return (
         <div>
             <table className='table table-striped'>
@@ -24,7 +37,7 @@ export function Posts() {
                         <td>{item.updatedAt}</td>
                         <td>
                             <button type="button" className="btn btn-danger" data-bs-toggle="modal"
-                                    data-bs-target="#exampleModal">
+                                    data-bs-target="#exampleModal"  onClick={() => getPops(item.id, item.title)}>
                                 delete
                             </button>
                             <button className='btn btn-primary m-lg-2 w-49'>edit</button>
@@ -49,7 +62,8 @@ export function Posts() {
                         </div>
                         <div className="modal-footer">
                             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" className="btn btn-danger">Xóa</button>
+                            <button type="button" className="btn btn-danger"
+                                    onClick={() => handleDelete(id)}>Xóa</button>
                         </div>
                     </div>
                 </div>
