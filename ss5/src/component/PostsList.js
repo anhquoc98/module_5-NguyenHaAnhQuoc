@@ -2,9 +2,9 @@ import React, {useEffect, useState} from 'react';
 import {findAll, remove} from "../service/PostsService";
 import {Link, NavLink} from "react-router-dom";
 import {useNavigate} from "react-router";
+import slugify from "slugify";
 
 export function PostsList() {
-
     const [postsList, setPostsList] = useState([]);
     const [idDelete, setIdDelete] = useState(null)
     useEffect(() => {
@@ -23,8 +23,8 @@ export function PostsList() {
         await remove(idDelete)
         let rs = await findAll();
         setPostsList(rs.data)
-
     }
+
 
     return (
         <div>

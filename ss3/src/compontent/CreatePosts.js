@@ -1,11 +1,14 @@
 import React, {useState} from "react";
 import slugify from "slugify";
+import {posts} from "./Data";
 
-export function CreatePosts({ setUseList }) {
+ function CreatePosts() {
     const currentDateTime = new Date().toLocaleString();
     const [errors, setErrors] = useState({});
+    const [use,setUse]=posts
 
     function handleSubmit(event) {
+
         event.preventDefault();
         const title = event.target.elements.title.value;
         const category = event.target.elements.category.value;
@@ -32,7 +35,7 @@ export function CreatePosts({ setUseList }) {
                 content,
                 updatedAt: currentDateTime
             };
-            setUseList((preData) => preData.concat(newMember));
+            setUse((preData) => preData.concat(newMember));
             setErrors({});
         } else {
             setErrors(validationErrors);
@@ -53,3 +56,5 @@ export function CreatePosts({ setUseList }) {
         </div>
     );
 }
+
+export default CreatePosts;

@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {posts} from "./Data";
-import {CreatePosts} from "./CreatePosts";
+import {NavLink} from "react-router-dom";
 
 export function ListPosts() {
     const [useList, setUseList] = useState(posts);
@@ -30,7 +30,7 @@ export function ListPosts() {
 
     return (
         <div>
-            <CreatePosts setUseList={setUseList}/>
+            <NavLink to="/create" setUseList={setUseList}>Create</NavLink>
             <div className='d-flex justify-content-center align-items-center'>
                 <h1>List Posts</h1>
             </div>

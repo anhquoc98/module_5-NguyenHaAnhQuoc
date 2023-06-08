@@ -2,20 +2,21 @@ import React, {useEffect, useState} from 'react';
 import {Field, Form, Formik} from "formik";
 import {findById, update} from "../service/PostsService";
 import {useNavigate, useParams} from "react-router";
+import * as Yup from "yup";
 
 export function PostsCreate() {
     let navigate = useNavigate()
-    let param=useParams()
-    const [byId,setFindById]=useState(null)
+    let param = useParams()
+    const [byId, setFindById] = useState(null)
 
-    useEffect(()=>{
-        const getId =async ()=>{
+    useEffect(() => {
+        const getId = async () => {
             const rs = await findById(param.id)
             setFindById(rs.data)
         }
         getId()
-    },[param.id])
-    if (!byId){
+    }, [param.id])
+    if (!byId) {
         return null
     }
 
@@ -23,12 +24,17 @@ export function PostsCreate() {
     return (
         <div>
             <Formik initialValues={{
-                id:byId.id,
-                title:byId.title,
+                id: byId.id,
+                title: byId.title,
                 content: byId.content,
                 category: byId.category,
                 updatedAt: byId.updatedAt,
             }}
+                    validationSchema={Yup.object({
+                        title: Yup.string().required("input tittle"),
+                        content: Yup.string().required("input tittle"),
+                        category: Yup.string().required("input tittle")
+                    })}
                     onSubmit={(values) => {
                         const create = async () => {
                             await update(values)
