@@ -23,8 +23,8 @@ export function PostsCreate() {
             }}
                     validationSchema={Yup.object({
                         title: Yup.string().required("input tittle"),
-                        content: Yup.string().required("input tittle"),
-                        category: Yup.string().required("input tittle")
+                        content: Yup.string().required("input content"),
+                        category: Yup.string().required("input category")
                     })}
                     onSubmit={(values) => {
                         const create = async () => {

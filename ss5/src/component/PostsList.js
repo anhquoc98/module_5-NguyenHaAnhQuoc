@@ -53,6 +53,8 @@ export function PostsList() {
                                     Delete
                                 </button>
                                 <Link to={`/edit/${value.id}`} className='btn btn-primary'>Edit</Link>
+                                <Link to={`/detail/${value.id}`} className='btn btn-primary'>Detail</Link>
+
                             </td>
                         </tr>
                     ))
@@ -75,7 +77,8 @@ export function PostsList() {
                         </div>
                         <div className="modal-footer">
                             <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <button type="button" className="btn btn-danger" data-bs-dismiss="modal" onClick={deletePost}>Delete
+                            <button type="button" className="btn btn-danger" data-bs-dismiss="modal"
+                                    onClick={deletePost}>Delete
                             </button>
                         </div>
                     </div>

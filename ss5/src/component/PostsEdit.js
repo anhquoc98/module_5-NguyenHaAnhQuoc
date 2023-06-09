@@ -4,7 +4,7 @@ import {findById, update} from "../service/PostsService";
 import {useNavigate, useParams} from "react-router";
 import * as Yup from "yup";
 
-export function PostsCreate() {
+export function PostsEdit() {
     let navigate = useNavigate()
     let param = useParams()
     const [byId, setFindById] = useState(null)
@@ -32,8 +32,8 @@ export function PostsCreate() {
             }}
                     validationSchema={Yup.object({
                         title: Yup.string().required("input tittle"),
-                        content: Yup.string().required("input tittle"),
-                        category: Yup.string().required("input tittle")
+                        content: Yup.string().required("input content"),
+                        category: Yup.string().required("input category")
                     })}
                     onSubmit={(values) => {
                         const create = async () => {
@@ -70,4 +70,4 @@ export function PostsCreate() {
     );
 }
 
-export default PostsCreate;
+export default PostsEdit;
