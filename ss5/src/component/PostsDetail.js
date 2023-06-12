@@ -20,6 +20,7 @@ export function PostsDetail() {
     return (
         <div>
             <table className='table table-primary' border='5px'>
+                <tbody>
                 <tr>
                     <th>id</th>
                     <th>{byId.id}</th>
@@ -35,13 +36,15 @@ export function PostsDetail() {
                     <th>updatedAt</th>
                     <th>{byId.updatedAt}</th>
                 </tr>
-               <tr>
+                <tr>
                     <th>slug</th>
                     <th>{byId.slug}</th>
                 </tr><tr>
                     <th>content</th>
                     <th>{byId.content}</th>
                 </tr>
+                </tbody>
+
             </table>
 
         </div>
