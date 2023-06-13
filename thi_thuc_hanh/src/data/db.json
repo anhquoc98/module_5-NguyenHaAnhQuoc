@@ -1,0 +1,28 @@
+{
+  "product": [
+    {
+      "id": 2,
+      "name": "Áo jean",
+      "day": "10/12/2020",
+      "sl": 3,
+      "typeProduct": 2
+    },
+    {
+      "id": 5,
+      "name": "Quần bò",
+      "day": "10/12/2020",
+      "sl": 5,
+      "typeProduct": 2
+    }
+  ],
+  "typeProduct": [
+    {
+      "id": 1,
+      "name": "hàng mới"
+    },
+    {
+      "id": 2,
+      "name": "hàng tồn kho"
+    }
+  ]
+}

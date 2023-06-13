@@ -7,16 +7,16 @@ import * as Yup from "yup";
 export function PostsEdit() {
     let navigate = useNavigate()
     let param = useParams()
-    const [byId, setFindById] = useState(null)
-
+    const [seachById, setSeachById] = useState(null)
+    
     useEffect(() => {
         const getId = async () => {
             const rs = await findById(param.id)
-            setFindById(rs.data)
+            setSeachById(rs.data)
         }
         getId()
     }, [param.id])
-    if (!byId) {
+    if (!seachById) {
         return null
     }
 
@@ -24,11 +24,11 @@ export function PostsEdit() {
     return (
         <div>
             <Formik initialValues={{
-                id: byId.id,
-                title: byId.title,
-                content: byId.content,
-                category: byId.category,
-                updatedAt: byId.updatedAt,
+                id: seachById.id,
+                title: seachById.title,
+                content: seachById.content,
+                category: seachById.category,
+                updatedAt: seachById.updatedAt,
             }}
                     validationSchema={Yup.object({
                         title: Yup.string().required("input tittle"),

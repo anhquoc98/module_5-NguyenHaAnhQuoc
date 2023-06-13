@@ -1,0 +1,50 @@
+{
+  "postBlog": [
+    {
+      "id": 1,
+      "name": "Nguyễn Văn A",
+      "category": 1,
+      "title": "abcd"
+    },
+    {
+      "id": 2,
+      "name": "Nguyễn Văn B",
+      "category": 2,
+      "title": "abc"
+    },
+    {
+      "id": 3,
+      "name": "Nguyễn Văn C",
+      "category": 1,
+      "title": "abcad"
+    },
+    {
+      "name": "fasdfa",
+      "title": "ấdfasfdas",
+      "category": "2",
+      "id": 7
+    },
+    {
+      "name": "Nguyễn Văn C",
+      "title": "abcad",
+      "category": 1,
+      "id": 8
+    },
+    {
+      "id": 9,
+      "name": "1321",
+      "title": "ấdfasfdas",
+      "category": "2"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "loại 1"
+    },
+    {
+      "id": 2,
+      "name": "loại 2"
+    }
+  ]
+}

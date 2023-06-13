@@ -83,9 +83,9 @@ export default function Header() {
                                         </NavLink>
                                     </li>
                                     <li>
-                                        <a className="dropdown-item" to='/customer-list'>
+                                        <NavLink className="dropdown-item" to='/customer'>
                                             Khách hàng
-                                        </a>
+                                        </NavLink>
                                     </li>
                                     <li>
                                         <a className="dropdown-item" to='/contract-list'>

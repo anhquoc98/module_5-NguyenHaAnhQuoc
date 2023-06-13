@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import axios from 'axios';
-import * as furamaService from '../service/furamaService';
+import * as furamaService from './service/furamaService';
 import Header from '../Header';
 import Footer from '../Footer';
 import {NavLink} from "react-router-dom";

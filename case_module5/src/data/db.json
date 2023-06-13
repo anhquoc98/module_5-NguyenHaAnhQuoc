@@ -242,7 +242,7 @@
   "customerList": [
     {
       "id": 1,
-      "name": "Nguyễn Lê Anh Quân",
+      "name": "Nguyễn Hà Anh Quốc",
       "gender": "1",
       "dateOfBirth": "2000-01-13",
       "cmnd": "201322211",
@@ -270,12 +270,12 @@
       "cmnd": "201322211",
       "phone": "0909777777",
       "email": "abc123@gmail.com",
-      "customerType": "4",
+      "customerType": 4,
       "address": "253 Nguyễn Hoàng"
     },
     {
       "id": 4,
-      "name": "Lê Đức Nghĩa",
+      "name": "Nguyễn Văn A",
       "gender": "1",
       "dateOfBirth": "1994-07-22",
       "cmnd": "201322211",
@@ -292,18 +292,20 @@
       "cmnd": "345543345",
       "phone": "0901111345",
       "email": "abc@gmail.com",
-      "customerType": "4",
+      "customerType": 3,
       "address": "50 Hoàng Diệu"
-    },
+    }
+  ,
+
     {
       "id": 6,
       "name": "Lê Văn Phát Đạt",
-      "gender": "1",
+      "gender": "2",
       "dateOfBirth": "1999-07-01",
       "cmnd": "201233322",
       "phone": "0909112112",
       "email": "abc@gmail.com",
-      "customerType": "2",
+      "customerType": 2,
       "address": "650 Âu Cơ"
     }
   ],

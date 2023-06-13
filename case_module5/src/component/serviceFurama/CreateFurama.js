@@ -1,6 +1,6 @@
 import React from 'react';
 import {Field, Form, Formik} from "formik";
-import * as furamaService from "../service/furamaService";
+import * as furamaService from "./service/furamaService";
 import {useNavigate} from "react-router-dom";
 
 function CreateFurama(props) {
