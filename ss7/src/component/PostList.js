@@ -1,51 +1,44 @@
-import React, { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { getPosts } from '../redux/action';
-import {NavLink} from "react-router-dom";
+import {useDispatch, useSelector} from "react-redux";
+import React, {useEffect} from "react";
+import {getALlPost} from "../redux/action/post";
+import {Link} from "react-router-dom";
 
-function PostList() {
+export function ListPost() {
     const dispatch = useDispatch();
     const posts = useSelector(state => state.posts);
-
     useEffect(() => {
-        dispatch(getPosts());
-    }, [dispatch]);
-
-    if (!posts) {
-        return null;
-    }
-
+        dispatch(getALlPost())
+    }, [dispatch])
     return (
-
-        <div>
-
-            <h1>Post List</h1>
-            <table>
+        <div className={"container-fluid"}>
+            <h1 className={"d-flex justify-content-center my-3"}>List Posts</h1>
+            <Link to={'/create'} className={"btn btn-primary float-end mx-5 mb-4"}>Create</Link>
+            <table className={"table table-bordered text-center"}>
                 <thead>
                 <tr>
-                    <th>id</th>
-                    <th>title</th>
-                    <th>slug</th>
-                    <th>category</th>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Slug</th>
+                    <th>Category</th>
                     <th>Thumbnail URL</th>
                 </tr>
                 </thead>
                 <tbody>
                 {
-                    posts.map((value,index)=>(
+                    posts.map((post, index) => (
                         <tr key={index}>
-                            <td>{value.id}</td>
-                            <td>{value.title}</td>
-                            <td>{value.slug}</td>
-                            <td>{value.category}</td>
-                            <td>{value.thubnailURl}</td>
+                            <td>{post.id}</td>
+                            <td>{post.title}</td>
+                            <td>{post.slug}</td>
+                            <td>{post.category}</td>
+                            <td className={"text-start"}>{post.thumbnail_url}</td>
                         </tr>
                     ))
                 }
                 </tbody>
             </table>
         </div>
-    );
-}
 
-export default PostList;
+    )
+}
+export default ListPost;

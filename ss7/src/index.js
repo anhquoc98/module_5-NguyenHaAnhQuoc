@@ -5,13 +5,22 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {Provider} from "react-redux";
 import store from "./redux/store";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import ListPost from "./component/PostList";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-      <Provider store={store}>
 
-          <App/>
-      </Provider>
+function CreatePost() {
+    return null;
+}
+
+root.render(
+    <Provider store={store}>
+        <BrowserRouter>
+            <App/>
+        </BrowserRouter>
+    </Provider>
+
 
 
 );
