@@ -1,0 +1,58 @@
+{
+  "product": [
+    {
+      "id": 2,
+      "codeProduct": "code002",
+      "nameProduct": "Iphone 8",
+      "price": 10000,
+      "typeProduct": 1,
+      "date": "12/12/2022"
+    },
+    {
+      "id": 3,
+      "codeProduct": "code003",
+      "nameProduct": "Asus",
+      "price": 8000,
+      "typeProduct": 2,
+      "date": "12/12/2022"
+    },
+    {
+      "id": 4,
+      "codeProduct": "code104",
+      "nameProduct": "IPad",
+      "price": 10000,
+      "typeProduct": 3,
+      "date": "12/12/2022"
+    },
+    {
+      "codeProduct": "3123",
+      "nameProduct": "21312",
+      "price": "31221",
+      "typeProduct": "2",
+      "date": "2023-06-03",
+      "id": 8
+    },
+    {
+      "codeProduct": "iphone",
+      "nameProduct": "Iphone 123",
+      "price": "34",
+      "typeProduct": "2",
+      "date": "2023-06-23",
+      "id": 9
+    }
+  ],
+  "typeProduct": [
+    {
+      "id": 1,
+      "name": "điện thoại"
+    },
+    {
+      "id": 2,
+      "name": "máy tính bảng"
+    },
+    {
+      "id": 3,
+      "name": "laptop"
+    }
+  ]
+}

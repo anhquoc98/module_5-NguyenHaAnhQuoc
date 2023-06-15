@@ -30,7 +30,7 @@ export const save = async(facility)=>{
     try {
         await axios.post('http://localhost:8080/customerList',{ ...facility })
     } catch (error) {
-
+        console.log(error)
     }
 }
 export const findById = async(id) =>{

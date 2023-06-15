@@ -294,9 +294,7 @@
       "email": "abc@gmail.com",
       "customerType": 3,
       "address": "50 Hoàng Diệu"
-    }
-  ,
-
+    },
     {
       "id": 6,
       "name": "Lê Văn Phát Đạt",
@@ -307,6 +305,39 @@
       "email": "abc@gmail.com",
       "customerType": 2,
       "address": "650 Âu Cơ"
+    },
+    {
+      "name": "",
+      "gender": "",
+      "dateOfBirth": "",
+      "cmnd": "",
+      "phone": "",
+      "email": "",
+      "address": "",
+      "customerType": "4",
+      "id": 7
+    },
+    {
+      "name": "4324141",
+      "gender": "1",
+      "dateOfBirth": "",
+      "cmnd": "",
+      "phone": "",
+      "email": "",
+      "address": "",
+      "customerType": 1,
+      "id": 8
+    },
+    {
+      "name": "",
+      "gender": "1",
+      "dateOfBirth": "",
+      "cmnd": "",
+      "phone": "",
+      "email": "",
+      "address": "",
+      "customerType": 1,
+      "id": 9
     }
   ],
   "customerTypeList": [
