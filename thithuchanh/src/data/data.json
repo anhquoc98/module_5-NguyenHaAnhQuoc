@@ -1,0 +1,91 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "idProduct": "PROD-001",
+      "nameProduct": "Blackmores Omega Double Hight Strength Fish Oil",
+      "typeProduct": 1,
+      "quantity": 1000,
+      "price": 598000,
+      "date": "24/01/2022",
+      "moTa": "abcd"
+    },
+    {
+      "id": 2,
+      "idProduct": "PROD-002",
+      "nameProduct": "Blackmores CoQ10 150mg",
+      "typeProduct": 1,
+      "quantity": 100,
+      "price": 513000,
+      "date": "15/10/2022",
+      "moTa": "abcd"
+    },
+    {
+      "id": 3,
+      "idProduct": "PROD-003",
+      "nameProduct": "Máy đo huyết áp bắp tay Microlife B3 Basic",
+      "typeProduct": 2,
+      "quantity": 500,
+      "price": 1350000,
+      "date": "03/02/2023",
+      "moTa": "abcd"
+    },
+    {
+      "id": 4,
+      "idProduct": "PROD-004",
+      "nameProduct": "Efferalgan",
+      "typeProduct": 3,
+      "quantity": 65,
+      "price": 3000,
+      "date": "11/11/2021",
+      "moTa": "abcd"
+    },
+    {
+      "id": 5,
+      "idProduct": "PROD-005",
+      "nameProduct": "Nhiệt kế hồng ngoại Kachi JXB-315",
+      "typeProduct": 1,
+      "quantity": 10000,
+      "price": 598000,
+      "date": "24/01/2022",
+      "moTa": "abcd"
+    },
+    {
+      "idProduct": "rewrew",
+      "nameProduct": "ewafajkn",
+      "typeProduct": "Thiết bị y tế",
+      "quantity": "3213",
+      "price": "321",
+      "date": "2023-06-10",
+      "moTa": "4321fewfa",
+      "id": 6
+    },
+    {
+      "idProduct": "rewrew",
+      "nameProduct": "ewafajkn",
+      "typeProduct": "2",
+      "quantity": "3213",
+      "price": "34",
+      "date": "2023-06-02",
+      "moTa": "sdasfads",
+      "id": 7
+    }
+  ],
+  "typeProduct": [
+    {
+      "id": 1,
+      "nameType": "Thực phẩm chức năng",
+      "mtType": "abc"
+    },
+    {
+      "id": 2,
+      "nameType": "Thiết bị y tế",
+      "mtType": "abc"
+    },
+    {
+      "id": 3,
+      "nameType": "Dược phẩm",
+      "mtType": "abc"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2767858a-5a11-4db1-a438-9299db4a07f8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../demo3/src/main/java/com/example/demo/controller/ProductManagerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo3/src/main/java/com/example/demo/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo3/src/main/java/com/example/demo/model/TypeProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo3/src/main/java/com/example/demo/repository/IProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo3/src/main/java/com/example/demo/service/IProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo3/src/main/java/com/example/demo/service/impl/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithuchanh/src/component/ProductCreate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithuchanh/src/component/ProductList.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithuchanh/src/data/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithuchanh/src/html/thithuchanh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithuchanh/src/service/productService.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../thithuchanh/src/service/typeService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/.idea/demo1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo1/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo2" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo2" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="demo2" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2RGwJM9ni9KaMZ3h0TJIHTarKk4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Gradle.demo2 [build]">
+    <configuration name="demo2 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="demo2 [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Demo2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="demo2.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.Demo2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.demo2 [build]" />
+        <item itemvalue="Gradle.demo2 [clean]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2767858a-5a11-4db1-a438-9299db4a07f8" name="Changes" comment="" />
+      <created>1686889654409</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686889654409</updated>
+      <workItem from="1686889655508" duration="2914000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
